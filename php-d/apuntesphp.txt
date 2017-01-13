@@ -1,0 +1,14 @@
+$var -Variable
+echo -Mostrar
+cadena.cadena -Concatena
+array: mapa ordenado
+$miarr = array(1,2,4,5,6);
+siezof($miarray)
+print_r(array) -Lista el array
+var_dump(array) -Lista con tipos de datos
+unset(elemento) -Elimina y ordena
+----https://secure.php.net/manual/es/
+array_splice($miarr,2); Desplazarse 2 elementos
+foreach ($array as $clave => $valor)
+$_GET -Array obtener
+mandril.com -Email
