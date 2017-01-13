@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ajax</title>
+	<script src="jquery.js"></script>
+</head>
+<body>	
+	<button id="btn">Click</button>
+	<script type="text/javascript">
+	$("#btn").click(function(){
+		$.ajax("info.txt").done(function(nombre){
+			alert(nombre);
+		}).fail(function(){
+			alert("ERROR");
+		})
+	})		
+	</script>
+</body>
+</html>
