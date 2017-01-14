@@ -7,5 +7,6 @@ use Abraham\TwitterOAuth\TwitterOAuth;
   $ats="iuD4vJMGCWb87ngSRRAlhnMl0aClAtPnwkBVyPd5bD8I3";
   $connection = new TwitterOAuth($ck,$cs,$at,$ats);
   $content = $connection->get("account/verify_credentials");
-  print_r($content);
+  $statuses = $connection->get("statuses/home_timeline", ["count" => 25, "exclude_replies" => true]);
+  print_r($statuses);
  ?>

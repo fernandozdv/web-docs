@@ -12,3 +12,14 @@ array_splice($miarr,2); Desplazarse 2 elementos
 foreach ($array as $clave => $valor)
 $_GET -Array obtener
 mandril.com -Email
+define(string,string2) -Constante string con valor string2
+etiqueta base -Habilita ficheros css y js desde su ruta que funciona como base.
+strtolower(string) -convierte a minúsculas.
+isset(variable) -Booleano verifica existencia
+file_exists(fichero) -Booleano verifica existencia
+onkeypress =function nombre(event) -Se activa cada vez que se presiona una tecla, event es parte de la función que representa la tecla presionada.
+event.keyCode -Devuelve la tecla presiona en ASCII
+connect.onreadystatechange -Nuevo cambio mediante AJAX.
+connect.readyState -1 activado 2 enviando datos 3 php recibe datos 4 PHP devuelve datos a JS
+connectStatus -200 Se encuentra el archivo 404 No se encuentra el archivo
+location.reload(); -Recarga la página y se sitúa en la misma URL en la cual se encontraba.

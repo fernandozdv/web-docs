@@ -1,1 +1,3 @@
-xddxdxxx
+<?php 
+	echo 1;
+ ?>
