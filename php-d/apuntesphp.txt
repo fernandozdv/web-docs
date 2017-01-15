@@ -3,7 +3,7 @@ echo -Mostrar
 cadena.cadena -Concatena
 array: mapa ordenado
 $miarr = array(1,2,4,5,6);
-siezof($miarray)
+sizeof($miarray)
 print_r(array) -Lista el array
 var_dump(array) -Lista con tipos de datos
 unset(elemento) -Elimina y ordena
@@ -19,7 +19,21 @@ isset(variable) -Booleano verifica existencia
 file_exists(fichero) -Booleano verifica existencia
 onkeypress =function nombre(event) -Se activa cada vez que se presiona una tecla, event es parte de la función que representa la tecla presionada.
 event.keyCode -Devuelve la tecla presiona en ASCII
+<<<<<AJAX
+LINKl: http://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=924:xmlhttprequest-ajax-propiedades-status-onreadystatechange-readystate-responsetext-o-xml-cu01207f&catid=83:tutorial-basico-programador-web-ajax-desde-cero&Itemid=212
+El objeto predefinido XMLHttpRequest es el objeto clave de Ajax, ya que nos proporciona la interfaz o herramientas necesarias para hacer las operaciones y comprobaciones necesarias para la comunicación en segundo plano con el servidor.
 connect.onreadystatechange -Nuevo cambio mediante AJAX.
-connect.readyState -1 activado 2 enviando datos 3 php recibe datos 4 PHP devuelve datos a JS
-connectStatus -200 Se encuentra el archivo 404 No se encuentra el archivo
+connect.readyState -0 No se ha abierto la conexión 1 activado 2 petición de envío recibida 3  el servidor ya envía datos  pero aún no completa 4 Envío de datos exitoso.
+connectStatus -200 Se encuentra el archivo 404 No se encuentra el archivo 500 error de servidor
 location.reload(); -Recarga la página y se sitúa en la misma URL en la cual se encontraba.
+>>>>>
+print $foo->aMemberFunc(); -Llamada a una funcion
+print $foo->{'aMemberFunc'}(); -Llamada a una funcion x2
+print $foo->aMemberVar; -Llamada a una variable
+header('location: index.php'); -Redireccionar.
+die(string) -Muestra un mensaje y sale del script.
+strlen(string) -Longitud del string.
+<<MYSQL
+$db = new Conexion();
+$db->real_escape_string(string) -Escapa de caracteres especiales para ser parte de una sentencia SQL
+$db->query(string) -Donde string es una sentencia en formato SQL.

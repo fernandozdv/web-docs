@@ -1,8 +1,9 @@
 function goLogin(){
 	var connect, form, response, result, user, pass, sesion;
-	form = 'variable=contenido';
 	user=__('user_login').value;
 	pass=__('pass_login').value;
+	sesion=__('session_login').checked ? true : false;
+	form = 'user='+user+'&pass='+pass+'&sesion='+sesion;
 	connect = window.XMLHttpRequest ? new XMLHttpRequest : new ActiveXObject('Microsoft.XMLHTTP');
 	connect.onreadystatechange = function()
 	{
@@ -42,4 +43,8 @@ function runScriptLogin(e)
 	{
 		goLogin();
 	}
+}
+document.getElementById('iniciar_sesion').onclick=function()
+{
+	goLogin();
 }
