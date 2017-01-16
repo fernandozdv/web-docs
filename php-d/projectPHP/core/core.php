@@ -14,4 +14,6 @@ define('DB_NAME','foro');
 require('vendor/autoload.php');
 require('core/models/class.Conexion.php');
 require('core/bin/functions/Encrypt.php');
+require('core/bin/functions/Users.php');
+$users=Users();
  ?>

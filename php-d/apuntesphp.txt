@@ -35,5 +35,7 @@ die(string) -Muestra un mensaje y sale del script.
 strlen(string) -Longitud del string.
 <<MYSQL
 $db = new Conexion();
-$db->real_escape_string(string) -Escapa de caracteres especiales para ser parte de una sentencia SQL
-$db->query(string) -Donde string es una sentencia en formato SQL.
+mysqli_query(conexion,query) -Devuelve información de la consulta mas no su contenido.
+mysqli_fetch_array(result) -Devuelve una fila del resultado de la consulta.
+$db->real_escape_string(string) -Escapa de caracteres evitando inyección de SQL.
+$db->query(string) -Donde string es una sentencia en formato SQL previa conexión.

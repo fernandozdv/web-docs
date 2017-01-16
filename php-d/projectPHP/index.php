@@ -1,6 +1,5 @@
 <?php
 require('core/core.php');
-echo Encrypt('12');
 if(isset($_GET['view']))
 {
 	if(file_exists('core/controllers/'.strtolower($_GET['view']).'Controller.php'))

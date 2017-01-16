@@ -5,15 +5,7 @@
 <?php 
   include(HTML_DIR.'overall/nav.php');
  ?>
-<?php 
-  include(HTML_DIR.'public/login.html');
-  ?>
-<?php 
-  include(HTML_DIR.'public/reg.html');
-  ?>
-<?php 
-  include(HTML_DIR.'public/lostpass.html');
-  ?>
+
  
 
 <section class="mbr-section mbr-after-navbar" id="content1-10">
