@@ -1,9 +1,9 @@
 <?php 
 		header("Content-type: text/html;charset=\"utf-8\"");
-		$emailTo="omar.rosadio@unmsm.edu.pe";
+		$emailTo="alonso.reynoso@unmsm.edu.pe";
 		$subject="Omar gay";
-		$body="Eres adoptado.";
-		$headers="From: luz.rosadio@example.com";
+		$body="ggggggg";
+		$headers="From: me.duele.mi.ano@example.com";
 		if(mail($emailTo, $subject,$body,$headers))
 			{
 				echo "Envio exitoso";
