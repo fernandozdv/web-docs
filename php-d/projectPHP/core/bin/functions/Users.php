@@ -12,7 +12,7 @@
 				'user'=>$d['user'],
 				'pass'=>$d['pass'],
 				'email'=>$d['email'],
-				'role'=>$d['role']);
+				'permisos'=>$d['permisos']);
 			}
 		}
 		else

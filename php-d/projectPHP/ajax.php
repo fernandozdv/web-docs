@@ -6,6 +6,9 @@
 			case 'login':
 				require('core/bin/ajax/gologin.php');
 				break;
+			case 'reg':
+				require('core/bin/ajax/goReg.php');
+				break;
 			
 			default:
 				header('location: index.php');

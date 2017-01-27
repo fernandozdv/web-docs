@@ -8,7 +8,8 @@
 		if($db->rows($sql)>0) //Si encontró alguna fila
 		{
 			
-			if($_POST['sesion'])
+			$bnd=$_POST['sesion'];
+			if(true==$bnd)
 			{
 				ini_set('session.cookie_lifetime', time() + (60*60*24));
 			}
